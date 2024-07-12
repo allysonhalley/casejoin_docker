@@ -1,0 +1,27 @@
+<style></style>
+<main class="main">
+  <div class="content">
+      <div class="container mt-3">
+          <nav class="navbar navbar-expand navbar">
+            <a href="#" class="navbar-brand">Case Join</a>
+            <div class="navbar-nav mr-auto">
+              <li class="nav-item">
+                <a routerLink="categories" class="nav-link">Categories</a>
+              </li>
+              <li class="nav-item">
+                <a routerLink="add-category" class="nav-link">Add Category</a>
+              </li>
+              <li class="nav-item">
+                <a routerLink="products" class="nav-link">Products</a>
+              </li>
+              <li class="nav-item">
+                <a routerLink="add-product" class="nav-link">Add Product</a>
+              </li>
+            </div>
+          </nav>
+          <div class="container mt-3">
+            <router-outlet></router-outlet>
+          </div>
+      </div>
+  </div>
+</main>
