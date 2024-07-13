@@ -3,7 +3,6 @@ LABEL authors="allysonhalley"
 
 WORKDIR /api
 COPY . .
-#RUN mvn install -Dmaven.test.skip
 RUN mvn clean package -Dmaven.test.skip
 
 ARG JAR_FILE=target/*.jar
